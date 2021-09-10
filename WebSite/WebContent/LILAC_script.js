@@ -12,7 +12,7 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles 
-const songs = ['그렇게 사랑은', '이름에게', 'dlwlrma (이 지금)', '팔레트 (feat. G-DRAGON)', '이런 엔딩', '사랑이 잘 (With 오혁)', '잼잼', 'Black Out', '마침표', '밤편지'];
+const songs = ['어푸 (Ah puh)', '에필로그', '라일락', 'Flu', 'Coin', '봄 안녕 봄', 'Celebrity', '돌림노래 (feat. DEAN)', '빈 컵 (Empty Cup)', '아이와 나의 바다'];
 
 // Keep track of song
 let songIndex = 2;
