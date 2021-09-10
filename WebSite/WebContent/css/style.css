@@ -80,8 +80,6 @@ a {
 .Home_text1{
 	text-align:center;
 	font-size:280px;  
-	font-family:Dancing Script;
-	font-style:bold;
 	position:relative;
 	top:90px; 
 	left:270px; 
@@ -90,7 +88,6 @@ a {
 .Home_text2{
 	text-align:center;
 	font-size:80px;
-	font-family:Dancing Script;  
 	position:relative;
 	top:140px;
 	left:270px;
@@ -99,8 +96,6 @@ a {
 .Home_text3{
 	text-align:center;
 	font-size:280px;
-	font-family:Dancing Script;
-	font-style:bold;
 	position:relative;
 	top:195px;
 }
@@ -108,7 +103,6 @@ a {
 .Home_text4{
 	text-align:center;
 	font-size:80px;
-	font-family:Dancing Script;
 	position:relative;
 	top:165px;
 } 
