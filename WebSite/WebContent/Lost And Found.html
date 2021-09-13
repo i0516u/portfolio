@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Iu Fan : Growing Up</title>
+<link rel="shortcut icon" type="image/x-icon" href="IU.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body style="overflow:hidden;">
+	<div class="Home 1">
+		<header id="header">
+			<p class="by">by Yang Seungwoo</p>
+		</header>
+
+		<nav id="nav">
+			<div class="left-side-bar">
+				<div class="status-ico">
+					<span><img
+						src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png"
+						class="ham"></span> <span><img
+						src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png"
+						class="ham"></span>
+				</div>
+
+				<ul>
+					<li><a href="index.html">IU Fan</a></li>
+					<li><a href="#">정규앨범</a>
+						<ul>
+							<li><a href="Growing Up.html">Growing Up</a></li>
+							<li><a href="Last Fantasy.html">Last Fantasy</a></li>
+							<li><a href="ModernTimesEpilogue.html">Modern Times</a></li>
+							<li><a href="Palette.html">Palette</a></li>
+							<li><a href="LILAC.html">LILAC</a></li>
+						</ul></li>
+					<li><a href="#">미니앨범</a></li>
+					<li><a href="#" class="p1">리메이크앨범</a></li>
+				</ul>
+				<img
+					src="https://w.namu.la/s/9f75a1ed1e2a723b8d6eaad013d863ec02dec845eabb42f1203bdfb560de6aac4c53a9768ffb6d82f3e51c7d9ade51d26d266d254cee7a886efb3efb49ea5f5101e6aa429ab70ad53b25078ac81a7c0296de5fed344d2ec0e4d6d27b7b218bb2"
+					class="EDAM_image">
+			</div>
+		</nav>
+
+		<div class="music-container" id="music-container">
+			<div class="music-info">
+				<h4 id="title"></h4>
+				<div class="progress-container" id="progress-container">
+					<div class="progress" id="progress"></div>
+				</div>
+			</div>
+
+			<audio src="GrowingUpmusic/바라보기.mp3" id="audio"></audio>
+
+			<div class="img-container">
+				<img src="GrowingUpimage/바라보기.jpg" alt="music-cover" id="cover" />
+			</div>
+			<div class="navigation">
+				<button id="prev" class="action-btn">
+					<i class="fas fa-backward"></i>
+				</button>
+				<button id="play" class="action-btn action-btn-big">
+					<i class="fas fa-play"></i>
+				</button>
+				<button id="next" class="action-btn">
+					<i class="fas fa-forward"></i>
+				</button>
+				<i class="fas fa-volume-up" aria-hidden="true" id="volume_icon"
+					onclick="mute_sound()"> </i> <input type="range" min="0" max="100"
+					value="50" oninput="set_vol(this.value)"
+					onchange="set_vol(this.value)" id="volume-control" class="volume">
+			</div>
+		</div>
+
+		<script src="LostAndFound_script.js" charset="EUC-KR"></script>
+
+		<section class="Studio_Album">
+			<div class="Growing Up">
+				<p class="M1_title">Lost And Found</p>
+				<p class="M1_title2">The 1st Mini Album</p>
+			</div>
+			<div id="Growing Up_Music">
+				<div class="view">
+					<div class="scrollBlind">
+						<ul class="Growing Up_Music_Menu">
+							<li class="num">01</li>
+							<li class="name">미운 오리</li>
+							<li class="time">3:31</li>
+						</ul>
+						<ul class="Growing Up_Music_Menu">
+							<li class="num">02</li>
+							<li class="name">미아</li>
+							<li class="time">3:44</li>
+						</ul>
+						<ul class="Growing Up_Music_Menu">
+							<li class="num">03</li>
+							<li class="name">있잖아(Feat. 마리오)</li>
+							<li class="time">3:23</li>
+						</ul>
+						<ul class="Growing Up_Music_Menu">
+							<li class="num">04</li>
+							<li class="name">Feel So Good</li>
+							<li class="time">4:05</li>
+						</ul>
+						<ul class="Growing Up_Music_Menu">
+							<li class="num">05</li>
+							<li class="name">Every Sweet Day</li>
+							<li class="time">3:29</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</section>
+	</div>
+</body>
+</html>
