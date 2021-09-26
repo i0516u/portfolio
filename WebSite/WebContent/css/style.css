@@ -168,7 +168,7 @@ a.p1 {
 .left-side-bar {
 	background-color: #dfdfdf;
 	height: 100%;
-	width: 180px;
+	width: 169px;
 	position: fixed;
 	left: -130px;
 	top: 0px;
@@ -227,7 +227,7 @@ a.p1 {
    	
 .EDAM_image{ 
 	position:relative;
-	top:680px; 
+	top:600px; 
 	left:40px; 
 	height:55px; 
 	width:90px;
@@ -410,12 +410,12 @@ ul.Palette_Music_Menu li {
 }
 
 .M1_title {
-  width: 500px;
+  width: 620px;
   color: white;
   position: relative;
   font-size: 80px;
   top: -140px;
-  left: 870px;
+  left: 750px;
   font-family: Gugi;
   text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
@@ -425,16 +425,16 @@ ul.Palette_Music_Menu li {
   position: relative;
   font-size: 40px;
   left: 770px;
-  top: -140px;
+  top: -130px;
   font-family: Gugi;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-  width: 300px;
+  width: 400px;
 }
 
 div#LostAndFound_Music {
   position: relative;
   left: -50px;
-  bottom: 490px;
+  bottom: 340px;
   width: 620px;
   height: 500px;
   background-color: rgba(0,0,0, .4);
@@ -448,6 +448,50 @@ ul.LostAndFound_Music_Menu {
 }
 
 ul.LostAndFound_Music_Menu li {
+float:left;
+text-align:center;
+color:white;
+}
+
+.M2_title {
+  width: 620px;
+  color: white;
+  position: relative;
+  font-size: 80px;
+  top: -140px;
+  left: 750px;
+  font-family: Gugi;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+.M2_title2 {
+  color: white;
+  position: relative;
+  font-size: 40px;
+  left: 770px;
+  top: -130px;
+  font-family: Gugi;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  width: 400px;
+}
+
+div#IUIM_Music {
+  position: relative;
+  left: -50px;
+  bottom: 340px;
+  width: 620px;
+  height: 500px;
+  background-color: rgba(0,0,0, .4);
+  border-radius: 5%;
+}
+
+ul.IUIM_Music_Menu {  
+  width:650px; 
+  height:50px;
+  line-height:50px;
+}
+
+ul.IUIM_Music_Menu li {
 float:left;
 text-align:center;
 color:white;
