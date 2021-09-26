@@ -83,7 +83,7 @@ a {
 	position:relative;
 	top:90px; 
 	left:270px;
-  width:780px; 
+  	width:780px; 
 }
 
 .Home_text2{
@@ -92,7 +92,7 @@ a {
 	position:relative;
 	top:140px;
 	left:270px;
-  width:470px;
+ 	width:470px;
 }
 
 .Home_text3{
@@ -100,7 +100,7 @@ a {
 	font-size:280px;
 	position:relative;
 	top:195px;
-  width:800px;
+ 	width:800px;
 }
 
 .Home_text4{
@@ -108,7 +108,7 @@ a {
 	font-size:80px;
 	position:relative;
 	top:165px;
-  width:628px;
+  	width:628px;
 } 
 li {
 	list-style: none;
