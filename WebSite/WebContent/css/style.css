@@ -497,6 +497,138 @@ text-align:center;
 color:white;
 }
 
+.M3_title {
+  width: 250px;
+  color: white;
+  position: relative;
+  font-size: 80px;
+  top: -140px;
+  left: 770px;
+  font-family: Gugi;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+.M3_title2 {
+  color: white;
+  position: relative;
+  font-size: 40px;
+  left: 770px;
+  top: -130px;
+  font-family: Gugi;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  width: 400px;
+}
+
+div#Real_Music {
+  position: relative;
+  left: -50px;
+  bottom: 340px;
+  width: 620px;
+  height: 500px;
+  background-color: rgba(0,0,0, .4);
+  border-radius: 5%;
+}
+
+ul.Real_Music_Menu {  
+  width:650px; 
+  height:50px;
+  line-height:50px;
+}
+
+ul.Real_Music_Menu li {
+float:left;
+text-align:center;
+color:white;
+}
+
+.M4_title {
+  width: 480px;
+  color: white;
+  position: relative;
+  font-size: 80px;
+  top: -140px;
+  left: 770px;
+  font-family: Gugi;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+.M4_title2 {
+  color: white;
+  position: relative;
+  font-size: 40px;
+  left: 770px;
+  top: -130px;
+  font-family: Gugi;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  width: 400px;
+}
+
+div#CHAT-SHIRE_Music {
+  position: relative;
+  left: -50px;
+  bottom: 340px;
+  width: 620px;
+  height: 500px;
+  background-color: rgba(0,0,0, .4);
+  border-radius: 5%;
+}
+
+ul.CHAT-SHIRE_Music_Menu {  
+  width:650px; 
+  height:50px;
+  line-height:50px;
+}
+
+ul.CHAT-SHIRE_Music_Menu li {
+float:left;
+text-align:center;
+color:white;
+}
+
+.M5_title {
+  width: 480px;
+  color: white;
+  position: relative;
+  font-size: 80px;
+  top: -140px;
+  left: 770px;
+  font-family: Gugi;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+.M5_title2 {
+  color: white;
+  position: relative;
+  font-size: 40px;
+  left: 770px;
+  top: -130px;
+  font-family: Gugi;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  width: 400px;
+}
+
+div#Lovepoem_Music {
+  position: relative;
+  left: -50px;
+  bottom: 340px;
+  width: 620px;
+  height: 500px;
+  background-color: rgba(0,0,0, .4);
+  border-radius: 5%;
+}
+
+ul.Lovepoem_Music_Menu {  
+  width:650px; 
+  height:50px;
+  line-height:50px;
+}
+
+ul.Lovepoem_Music_Menu li {
+float:left;
+text-align:center;
+color:white;
+}
+
 .num { 
 	width:100px;
 }
