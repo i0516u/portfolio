@@ -29,8 +29,8 @@ loadSong(songs[songIndex]);
 // Update song details
 function loadSong(song) {
   title.innerText = song;
-  audio.src = `LostAndFoundmusic/${song}.mp3`;
-  cover.src = `LostAndFoundimage/${song}.jpg`;
+  audio.src = `IU...IMmusic/${song}.mp3`;
+  cover.src = `IU...IMimage/${song}.jpg`;
 }
 
 // Play song
